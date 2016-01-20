@@ -88,6 +88,11 @@
 		<artifactId>wsdl4j</artifactId>
 		<version>${orbit.version.wsdl4j}</version>
 	</dependency>
+	<dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>org.jacoco.agent</artifactId>
+            <version>${jacoco.agent.version}</version>
+	</dependency>
         <dependency>
             <groupId>wsdl4j</groupId>
             <artifactId>wsdl4j</artifactId>
@@ -1376,7 +1381,7 @@
       <bouncycastle.version>132</bouncycastle.version>
       <jaggery.extensions.version>1.1.0</jaggery.extensions.version>
       <jaggery.extensions.previous.version>1.0.0</jaggery.extensions.previous.version>
-
+      <jacoco.agent.version>0.7.4.201502262128</jacoco.agent.version>
        <orbit.version.eclipse.jgit>2.3.1.wso2v2</orbit.version.eclipse.jgit>
        <jcraft.version>0.1.51</jcraft.version>
 
